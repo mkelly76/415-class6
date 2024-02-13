@@ -1,0 +1,23 @@
+/*Nav Styles */ 
+header {
+     background-color: $color__grey;
+     display: flex;
+     .menu {
+          margin-left: auto;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          .menu-link {
+               color: white;
+               padding: 1em;
+               display: block;
+               text-decoration: none;
+               font-family: $font__heading;
+               &:hover {
+                    background-color: darken
+                    ($color__grey, 10%);
+               }
+          }
+     }
+}
